@@ -1,44 +1,38 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { LucideIcon } from 'lucide-react';
+import { useMetricsAnimation } from './useMetricsAnimation';
 
 interface MetricCardProps {
   icon: React.ReactNode;
   value: string;
   label: string;
   sublabel: string;
+  color: string;
   index: number;
 }
 
-export default function MetricCard({ icon, value, label, sublabel, index }: MetricCardProps) {
+export default function MetricCard({ icon, value, label, sublabel, color, index }: MetricCardProps) {
+  const valueRef = useMetricsAnimation(value);
+
   return (
     <motion.div
-      variants={{
-        hidden: { opacity: 0, y: 20 },
-        show: { opacity: 1, y: 0 }
-      }}
-      whileHover={{ y: -5 }}
-      className="group relative bg-gradient-to-br from-indigo-600 to-purple-600 p-6 rounded-xl 
-                shadow-lg hover:shadow-xl transition-all duration-300"
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.5, delay: index * 0.1 }}
+      className="group relative"
     >
-      <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 rounded-xl transition-opacity duration-300" />
-      <div className="relative text-white text-center">
-        <motion.div
-          whileHover={{ scale: 1.1 }}
-          className="inline-flex p-3 rounded-xl bg-white/10 backdrop-blur-sm mb-4"
-        >
-          {icon}
-        </motion.div>
-        <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5, delay: 0.2 + index * 0.1 }}
-          className="text-3xl font-bold mb-1"
-        >
-          {value}
-        </motion.div>
-        <div className="text-sm font-medium text-white/90">{label}</div>
-        <div className="text-xs text-white/70">{sublabel}</div>
+      <div className={`absolute inset-0 bg-gradient-to-br ${color} 
+                    rounded-2xl transform transition-all duration-300 group-hover:scale-105`} />
+      <div className="relative p-6 rounded-2xl backdrop-blur-sm">
+        <div className="flex flex-col items-center text-center space-y-3">
+          <div className="p-3 bg-white/10 rounded-xl">{icon}</div>
+          <div className="space-y-1">
+            <div ref={valueRef} className="text-3xl font-bold text-white">{value}</div>
+            <div className="text-sm font-medium text-white/90">{label}</div>
+            <div className="text-xs text-white/80">{sublabel}</div>
+          </div>
+        </div>
       </div>
     </motion.div>
   );

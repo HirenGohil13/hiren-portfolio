@@ -6,26 +6,14 @@ const certifications = [
   {
     title: "AWS Solutions Architect Associate",
     issuer: "Amazon Web Services",
-    date: "2023",
-    credentialId: "AWS-SAA-12345",
+    date: "June 2023",
     logo: "/aws-badge.svg",
-    verificationUrl: "https://www.credly.com/badges/aws-certified-solutions-architect-associate"
   },
   {
-    title: "Professional Scrum Master™ I",
+    title: "Scrum Master Certified (SMC)",
     issuer: "Scrum.org",
-    date: "2023",
-    credentialId: "PSM-I-98765",
+    date: "Feb 2024",
     logo: "/scrum-badge.svg",
-    verificationUrl: "https://www.scrum.org/certificates/verify"
-  },
-  {
-    title: "MongoDB Professional Developer",
-    issuer: "MongoDB University",
-    date: "2022",
-    credentialId: "MDB-DEV-43210",
-    logo: "/mongo-badge.svg",
-    verificationUrl: "https://university.mongodb.com/certification/verify"
   }
 ];
 

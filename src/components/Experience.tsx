@@ -4,61 +4,77 @@ import { Briefcase, Building2, Calendar, ChevronRight, Award, Users, Cpu, Code, 
 const experiences = [
   {
     company: "Sixberries Ltd",
-    role: "Tech Lead",
+    role: "Lead Engineer",
     period: "July 2019 - Present",
-    description: "Led a team of 15+ developers across 3 continents, driving technical innovation and architectural excellence.",
+    description: "Led a team of 15+ developers, driving technical innovation, architectural excellence, and Agile transformations to deliver high-impact solutions.",
     impact: {
-      icon: <Users className="h-5 w-5" />,
-      metric: "$5M+",
+      icon: <Target className='h-5 w-5' />,
+      metric: "$2M+",
       text: "Revenue Generated"
     },
-    achievements: [
-      "Led 15+ developers across 3 continents, achieving 98% on-time delivery rate",
-      "Reduced system downtime by 75% through microservices migration",
-      "Reduced deployment time from 2 days to 2 hours with 99.99% uptime",
-      "Established mentorship program with 90% team retention",
-      "Reduced monthly AWS costs by $25K while improving performance"
+    "achievements": [
+      "Spearheaded the architectural design and transition to microservices, significantly improving system scalability and resilience.",
+      "Drove the adoption of modern DevOps practices, streamlining deployment pipelines and ensuring high system uptime.",
+      "Mentored and developed team members, fostering a collaborative and high-performing engineering culture.",
+      "Managed cloud infrastructure to enhance performance and optimize costs, aligning with business needs.",
+      "Partnered with stakeholders to align technical strategies with business objectives, ensuring continuous value delivery.",
+      "Led Agile transformation initiatives, guiding teams in adopting Scrum to improve sprint planning, execution, and delivery timelines.",
+      "Facilitated Scrum ceremonies (Sprint Planning, Daily Standups, Sprint Reviews, Retrospectives), ensuring alignment between teams and stakeholders.",
+      "Promoted continuous improvement by coaching teams on Agile best practices, helping them iterate on processes for better efficiency and outcomes."
     ],
-    tags: ["Technical Leadership", "Cloud Architecture", "DevOps Excellence"]
+    "tags": [
+      "Technical Leadership",
+      "Cloud Architecture",
+      "DevOps Excellence",
+      "System Design",
+      "Agile Development",
+      "Scrum Mastery"
+    ]
   },
   {
     company: "Sublime Data Systems",
     role: "Sr Software Engineer",
     period: "Jan 2018 - July 2019",
-    description: "Architected and led development of scalable systems serving millions of users while mentoring junior developers.",
+    description: "Developed scalable systems, while mentoring and supporting junior developers",
     impact: {
       icon: <Target className="h-5 w-5" />,
-      metric: "300%",
+      metric: "200%",
       text: "User Growth"
     },
-    achievements: [
-      "Designed architecture handling 1M+ daily active users",
-      "Reduced API response time by 60% through optimization",
-      "Implemented zero-trust security architecture",
-      "Mentored 8 junior developers with 5 receiving promotions",
-      "Created ML-powered anomaly detection system"
-    ],
+    "achievements": [
+  "Reduced API response times by 60% through targeted optimizations, significantly improving system speed and enhancing user satisfaction.",
+  "Implemented a zero-trust security model, strengthening the platform's defense mechanisms and ensuring secure data handling at all levels.",
+  "Collaborated with cross-functional teams to ensure smooth integration of new features, ensuring alignment between technical solutions and business goals.",
+  "Refined development processes by introducing best practices in code quality, version control, and automated testing, improving overall team efficiency.",
+  "Led the migration of legacy systems to modern technologies, reducing technical debt and improving system maintainability."
+],
     tags: ["System Architecture", "Performance", "Security"]
   },
   {
-    company: "IIH Global",
-    role: "Software Engineer",
-    period: "April 2014 - Jan 2018",
-    description: "Delivered high-impact features and optimizations while establishing robust development practices.",
-    impact: {
-      icon: <Code className="h-5 w-5" />,
-      metric: "95%",
-      text: "Client Satisfaction"
+    "company": "IIH Global",
+    "role": "Software Engineer",
+    "period": "April 2014 - Jan 2018",
+    "description": "Worked on developing key features and improving system performance, while helping establish good development practices.",
+    "impact": {
+      "icon": "<Code className='h-5 w-5' />",
+      "metric": "95%",
+      "text": "Client Satisfaction"
     },
-    achievements: [
-      "Delivered 20+ major features with 99.9% uptime",
-      "Reduced bug rate by 45% through automated testing",
-      "Improved application load time by 65%",
-      "Created internal tools saving 20+ hours per week",
-      "Led payment gateway integration processing $10M+ monthly"
+    "achievements": [
+      "Delivered 20+ important features with 99.9% system uptime.",
+      "Reduced the bug rate by 45% by adding automated tests to improve code quality.",
+      "Made the application load 65% faster, improving user experience.",
+      "Built internal tools that saved the team over 20 hours a week.",
+      "Led the integration of a payment gateway, processing over $10M in transactions each month."
     ],
-    tags: ["Feature Development", "Quality Assurance", "Performance"]
-  },
+    "tags": [
+      "Feature Development",
+      "Quality Assurance",
+      "Performance Improvement",
+      "Automation",
+      "Payment Systems"
+    ]
+  },  
   {
     company: "Eternalsoft Solutions",
     role: "Software Engineer",

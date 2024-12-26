@@ -3,32 +3,88 @@ import { Quote, Linkedin, Star, Verified } from 'lucide-react';
 
 const recommendations = [
   {
-    name: "Sarah Mitchell",
-    role: "Engineering Director at Microsoft",
+    name: "Vicky Fuller",
+    role: "Co-Founder at Swoperz",
     image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
-    content: "Hiren is an exceptional technical leader who consistently delivers results. His ability to navigate complex challenges while maintaining team morale is remarkable. Under his leadership, our cloud infrastructure project was delivered ahead of schedule with outstanding quality.",
-    company: "Microsoft",
+    content: "Hiren has been an invaluable asset to our development team. As a highly skilled engineer and a dedicated technical lead, Hiren has consistently demonstrated an outstanding work ethic and a conscientious can-do attitude that sets him apart.His ability to navigate complex technical challenges showcases his depth of expertise and problem-solving skills. What truly stands out about Hiren is his conscientious attitude. Regardless of the task at hand, he approaches it with enthusiasm and a determination to exceed expectations. Hiren is not just a skilled engineer; he is a reliable and collaborative team player who consistently goes the extra mile to ensure the success of the entire development team. His positive and can-do mindset has had a positive impact on team morale and productivity",
+    company: "Swoperz",
+    relation: "Worked directly with Hiren",
+    endorsements: ["Technical Leadership", "Cloud Architecture", "Team Management", "Postitive Attitude", "Can-do Mindset"]
+  },
+  {
+    name: "Hasu Jadav",
+    role: "Manager at IIH Global",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+    content: "Hiren proved to be one of the most dedicated professionals through his work at IIH Global. His hands-on approach to Laravel,php,wordpress,jquery,mysql and powerful personality gained him the respect of the staff. Thanks to interpersonal skills he has great relations with both company clients and potential customers. He is ready to deal with difficult situations and solve the problems on time. He always takes care of the job. For Hiren the job is always the most important thing to do. Very positive attitude towards work. He absolutely shines in a a busy environment. Definitely worth recommending.",
+    company: "IIH Global",
+    relation: "Worked directly with Hiren",
+    endorsements: ["Fullstack Software Engineer", "Agile Leadership", "Dedication", "Problem Solver"]
+  },
+  {
+    name: "Chetan Patel",
+    role: "Lead Engineer at Eternal Web Limited",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+    content: "Hiren performed exceptionally on projects and did not fail a single time. Always on time and multi-skilled co-worker with excellent communication skills. Reliable and precise colleague - His ideas, skills, knowledge and understanding of dependencies made projects a great thing to work on. If you need a highly committed expert, he is the right person. Working with him is signature if success.",
+    company: "Eternalweb Limited",
+    relation: "Worked directly with Hiren",
+    endorsements: ["Backend Software Engineer",  "Quick Learner", "Problem Solver"]
+  },
+  {
+    name: "Charlene Hurlock",
+    role: "Founder at Swoperz",
+    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+    content: "Hiren is a capable technical leader who remains calm under pressure and is an excellent forward thinker and problem solver. Hiren has a wonderful passion for his clients and developing junior members of the team with exceptional achievements.",
+    company: "Swoperz",
+    relation: "Worked directly with Hiren",
+    endorsements: ["Technical Leadership", "Team Management", ]
+  },
+  {
+    name: "Naziya Shaikh",
+    role: "QA Lead at Bain/SixBerries",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+    content: "Hiren is not only lead with compassion, but also fully understands what it means to lead by example.He has a true ability to lead both through coaching/mentoring as well as leading by example.",
+    company: "Bain & SixBerries",
+    relation: "Worked directly with Hiren",
+    endorsements: ["Tech Lead", "Agile Leadership", "Mentor"]
+  },
+  
+  {
+    name: "Utsav Gupta",
+    role: "Senior Software Engineer at IIH Global",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+    content: "Hiren is very hardworking and always innovating. Always used to work out the solution with greater impact. He is an expert Laravel developer who possess best technological knowledge with great analytical skills. He is a detail oriented ,focused and intelligent professional. He is always there to give his best to deliver things in time. I would definitely recommend him to anyone who wants to hire an excellent coder.",
+    company: "IIH Global",
+    relation: "Worked directly with Hiren",
+    endorsements: ["Fullstack Software Engineer", "Agile Leadership", "Dedication", "Problem Solver"]
+  },
+  {
+    name: "Irsa Hadžiefendić",
+    role: "Product Designer at HTEC Group",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+    content: "Working with Hiren is always so easy. He has great management skills and is very knowledgeable in development. Always ready to help and explain.",
+    company: "HTEC Group",
+    relation: "Collaborated on projects",
+    endorsements: ["Project Management", "Technical Strategy", "Leadership"]
+  },
+  {
+    name: "Vicky Fuller",
+    role: "Co-Founder at Swoperz",
+    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+    content: "Hiren seamlessly integrated into our team during the SixBerries web development deployment in a technical lead position. His problem-solving skills and innovative thinking were outstanding. A valuable addition to any project!",
+    company: "Swoperz",
     relation: "Worked directly with Hiren",
     endorsements: ["Technical Leadership", "Cloud Architecture", "Team Management"]
   },
   {
-    name: "David Kumar",
-    role: "CTO at TechVision",
+    name: "Atef Rihane",
+    role: "Software Engineer at SixBerries",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
-    content: "I had the pleasure of working with Hiren on multiple high-stakes projects. His technical expertise and strategic thinking transformed our development processes. He's not just a skilled engineer but a visionary who brings out the best in his team.",
-    company: "TechVision",
-    relation: "Senior to Hiren",
-    endorsements: ["System Architecture", "Agile Leadership", "Innovation"]
+    content: "I worked with Hiren directly in different projects.He is humble,good communicator and very understanding.It was a pleasure collaborating with him",
+    company: "SixBerries",
+    relation: "Worked directly with Hiren",
+    endorsements: ["Tech Lead", "Agile Leadership", "Mentor"]
   },
-  {
-    name: "Emily Zhang",
-    role: "Product Director at Amazon",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
-    content: "Hiren's technical acumen and leadership skills are truly impressive. He successfully led our platform migration while ensuring zero downtime. His ability to balance technical excellence with business objectives makes him an invaluable asset.",
-    company: "Amazon",
-    relation: "Collaborated on projects",
-    endorsements: ["Project Management", "Technical Strategy", "Leadership"]
-  }
+  
 ];
 
 export default function Recommendations() {

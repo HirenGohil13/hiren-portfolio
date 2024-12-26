@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code2, Users, Cloud, Shield, GitBranch, Workflow } from 'lucide-react';
+import { Code2, Users, Cloud, Shield, GitBranch, Workflow, Database, Monitor, Lightbulb, Layers, TrendingUp, Book } from 'lucide-react';
 
 const responsibilities = [
   {
@@ -32,6 +32,40 @@ const responsibilities = [
     icon: <Workflow className="h-5 w-5" />,
     title: "Agile Practices",
     description: "Leading sprint planning and agile ceremonies"
+  },
+  {
+    icon: <Database className="h-5 w-5" />,
+    title: "Data Management",
+    description: "Designing and optimizing database schemas and ensuring data integrity"
+  },
+  {
+    icon: <Monitor className="h-5 w-5" />,
+    title: "System Monitoring",
+    description: "Setting up monitoring, logging, and alerting systems for proactive issue resolution"
+  },{
+    icon: <Lightbulb className="h-5 w-5" />,
+    title: "Technical Innovation",
+    description: "Researching and integrating emerging technologies to improve system performance"
+  },
+  {
+    icon: <Shield className="h-5 w-5" />,
+    title: "Security and Compliance",
+    description: "Ensuring system security and compliance with industry standards and regulations"
+  },
+  {
+    icon: <Layers className="h-5 w-5" />,
+    title: "Cross-Team Collaboration",
+    description: "Working with product managers and designers to align technical solutions with business needs"
+  },
+  {
+    icon: <TrendingUp className="h-5 w-5" />,
+    title: "Performance Optimization",
+    description: "Improving system performance and scalability through code and infrastructure enhancements"
+  },
+  {
+    icon: <Book className="h-5 w-5" />,
+    title: "Knowledge Sharing",
+    description: "Conducting technical workshops and sharing expertise within the team"
   }
 ];
 

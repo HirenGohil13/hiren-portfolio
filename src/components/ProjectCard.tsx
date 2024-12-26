@@ -14,20 +14,17 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       className="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300"
     >
       <div className="relative">
-        <img 
-          src={project.image} 
-          alt={project.title} 
-          className="w-full h-48 object-cover"
-        />
-        <div className="absolute top-4 right-4">
-          <span className={`
-            px-3 py-1 rounded-full text-sm font-medium
-            ${project.status === 'completed' ? 'bg-green-100 text-green-700' : ''}
-            ${project.status === 'in-progress' ? 'bg-yellow-100 text-yellow-700' : ''}
-            ${project.status === 'planned' ? 'bg-blue-100 text-blue-700' : ''}
-          `}>
-            {project.status.charAt(0).toUpperCase() + project.status.slice(1)}
-          </span>
+        <div className="py-4">
+          <div className="absolute top-4 right-4">
+            <span className={`
+              px-3 py-1 rounded-full text-sm font-medium
+              ${project.status === 'completed' ? 'bg-green-100 text-green-700' : ''}
+              ${project.status === 'in-progress' ? 'bg-yellow-100 text-yellow-700' : ''}
+              ${project.status === 'planned' ? 'bg-blue-100 text-blue-700' : ''}
+            `}>
+              {project.status.charAt(0).toUpperCase() + project.status.slice(1)}
+            </span>
+          </div>
         </div>
       </div>
 
