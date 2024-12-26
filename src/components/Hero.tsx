@@ -9,14 +9,16 @@ export default function Hero() {
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
       strings: [
-        'Technical Excellence',
-        'Full Stack Development',
-        'Agile Leadership',
-        'Cloud Solutions'
-      ],
+        'Leading Engineering Excellence',
+        'Driving Technical Strategy & Innovation',
+        'Building Full Stack Expertise',
+        'Architecting Cloud Solutions',
+        'Mentoring & Empowering Teams',
+        'Delivering Agile Project Success'
+    ],    
       typeSpeed: 50,
-      backSpeed: 30,
-      backDelay: 1500,
+      backSpeed: 20,
+      backDelay: 1000,
       loop: true
     });
 
@@ -98,9 +100,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed"
             >
-              Versatile Lead Engineer with expertise in Node, React, Vue, Laravel, TypeScript, and JavaScript. 
-              Certified Scrum Master driving agile excellence and innovation. 
-              Passionate about cloud architecture and AI, committed to delivering scalable solutions while fostering team growth.
+              As a Lead Engineer, I combine technical expertise and strategic vision to solve complex problems and deliver impactful solutions that drive business value. Passionate about AI, I focus on streamlining processes, enhancing performance, and fostering collaboration to deliver scalable solutions that maximize ROI and contribute to long-term business success.
             </motion.p>
           </div>
 
