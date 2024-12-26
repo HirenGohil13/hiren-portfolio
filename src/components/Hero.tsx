@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Code2, Database, Brain, Shield, Target, Award, Rocket, Star, Globe, Zap, Layers } from 'lucide-react';
+import { ArrowRight, Code2, Database, Brain, Shield, Target, Rocket, Star, Globe, Zap, Layers } from 'lucide-react';
 import Typed from 'typed.js';
 
 export default function Hero() {
