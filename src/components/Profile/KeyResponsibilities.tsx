@@ -5,69 +5,71 @@ import { Code2, Users, Cloud, Shield, GitBranch, Workflow, Database, Monitor, Li
 const responsibilities = [
   {
     icon: <Code2 className="h-5 w-5" />,
-    title: "Technical Architecture",
-    description: "Designing and implementing scalable cloud-native solutions"
+    title: "Technical Leadership",
+    description: "Architecting and driving the implementation of scalable, cloud-native solutions."
   },
   {
     icon: <Users className="h-5 w-5" />,
-    title: "Team Leadership",
-    description: "Leading and mentoring teams of 15+ developers across global locations"
+    title: "Team Leadership & Mentorship",
+    description: "Leading, mentoring, and growing teams of 15+ developers across global locations to achieve excellence."
   },
   {
     icon: <Cloud className="h-5 w-5" />,
-    title: "Cloud Infrastructure",
-    description: "Managing AWS infrastructure and implementing DevOps practices"
+    title: "Cloud Infrastructure Strategy",
+    description: "Overseeing AWS infrastructure, optimizing cloud architecture, and driving DevOps best practices."
   },
   {
     icon: <Shield className="h-5 w-5" />,
-    title: "Quality Assurance",
-    description: "Establishing coding standards and best practices"
+    title: "Quality Assurance & Best Practices",
+    description: "Establishing high coding standards and fostering a culture of continuous improvement."
   },
   {
     icon: <GitBranch className="h-5 w-5" />,
-    title: "CI/CD Pipeline",
-    description: "Implementing automated deployment and testing workflows"
+    title: "CI/CD Pipeline Optimization",
+    description: "Leading the implementation of automated deployment, testing, and continuous integration workflows."
   },
   {
     icon: <Workflow className="h-5 w-5" />,
-    title: "Agile Practices",
-    description: "Leading sprint planning and agile ceremonies"
+    title: "Agile Project Leadership",
+    description: "Guiding sprint planning, retrospectives, and agile ceremonies to ensure project alignment and timely delivery."
   },
   {
     icon: <Database className="h-5 w-5" />,
-    title: "Data Management",
-    description: "Designing and optimizing database schemas and ensuring data integrity"
+    title: "Data Management & Architecture",
+    description: "Designing, optimizing, and ensuring data integrity through robust database schemas and architectures."
   },
   {
     icon: <Monitor className="h-5 w-5" />,
-    title: "System Monitoring",
-    description: "Setting up monitoring, logging, and alerting systems for proactive issue resolution"
-  },{
+    title: "System Monitoring & Proactive Management",
+    description: "Implementing and maintaining monitoring, logging, and alerting systems for proactive issue resolution."
+  },
+  {
     icon: <Lightbulb className="h-5 w-5" />,
-    title: "Technical Innovation",
-    description: "Researching and integrating emerging technologies to improve system performance"
+    title: "Technical Innovation & Research",
+    description: "Researching emerging technologies and integrating them to drive system performance and innovation."
   },
   {
     icon: <Shield className="h-5 w-5" />,
-    title: "Security and Compliance",
-    description: "Ensuring system security and compliance with industry standards and regulations"
+    title: "Security & Compliance Oversight",
+    description: "Ensuring the highest levels of security and compliance with industry standards and regulations."
   },
   {
     icon: <Layers className="h-5 w-5" />,
-    title: "Cross-Team Collaboration",
-    description: "Working with product managers and designers to align technical solutions with business needs"
+    title: "Cross-Functional Collaboration",
+    description: "Collaborating with product managers, designers, and other stakeholders to align technical solutions with business needs."
   },
   {
     icon: <TrendingUp className="h-5 w-5" />,
-    title: "Performance Optimization",
-    description: "Improving system performance and scalability through code and infrastructure enhancements"
+    title: "Performance & Scalability Optimization",
+    description: "Driving performance improvements and scalability through code, architecture, and infrastructure enhancements."
   },
   {
     icon: <Book className="h-5 w-5" />,
-    title: "Knowledge Sharing",
-    description: "Conducting technical workshops and sharing expertise within the team"
+    title: "Knowledge Sharing & Growth",
+    description: "Leading technical workshops and sharing knowledge to elevate the team’s skill set and foster continuous learning."
   }
 ];
+
 
 const KeyResponsibilities: React.FC = () => {
   return (

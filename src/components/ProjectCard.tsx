@@ -1,4 +1,3 @@
-import React from 'react';
 import { ExternalLink, Github, ArrowRight } from 'lucide-react';
 import { Project } from '../types/project';
 import { motion } from 'framer-motion';

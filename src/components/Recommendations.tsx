@@ -1,4 +1,3 @@
-import React from 'react';
 import { Quote, Linkedin, Star, Verified } from 'lucide-react';
 
 const recommendations = [
