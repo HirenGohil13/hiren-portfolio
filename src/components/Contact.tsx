@@ -32,7 +32,7 @@ export default function Contact() {
               Get in touch for collaborations and opportunities
             </p>
             <p className="text-blue-600 font-medium group-hover:text-blue-700">
-              hiren@sixberries.com
+              hiren13190@gmail.com
             </p>
           </a>
 

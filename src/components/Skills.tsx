@@ -1,8 +1,7 @@
-import React from 'react';
 import { 
   Users, Layout, Server, Database,
   GitBranch, Trello, Workflow, Layers, 
-  Terminal, Cloud, Code2, Brain
+  Cloud, Code2, Brain
 } from 'lucide-react';
 
 const skillCategories = [
@@ -19,17 +18,22 @@ const skillCategories = [
   {
     title: "Backend Development",
     icon: <Server className="h-6 w-6" />,
-    skills: ["Node.js", "PHP (Laravel)", "WordPress", "RESTful APIs"]
+    skills: ["Node.js (Express)", "PHP (Laravel)", "WordPress", "RESTful APIs", "GraphQL"]
   },
   {
     title: "Databases",
     icon: <Database className="h-6 w-6" />,
-    skills: ["MongoDB", "MySQL", "Database Design", "Query Optimization"]
+    skills: ["MongoDB", "PostgreSQL", "MySQL", "Database Design", "Query Optimization"]
+  },
+  {
+    title: "Security",
+    icon: <Lock className="h-6 w-6" />,
+    skills: ["OWASP", "Application Security", "Data Encryption",  "GDPR compliance","Vulnerability Management", "Authentication & Authorization"]
   },
   {
     title: "Cloud & DevOps",
     icon: <Cloud className="h-6 w-6" />,
-    skills: ["AWS", "Docker", "GitHub", "GitLab"]
+    skills: ["AWS", "Docker", "GitHub", "GitLab","Github Action (CI/CD)"]
   },
   {
     title: "Project Management",

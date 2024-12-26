@@ -47,7 +47,7 @@ export default function Education() {
                   </div>
                   <div>
                     <div className="text-lg font-semibold text-gray-900">Key Achievements</div>
-                    <div className="text-gray-600">Specialized in Computer Architecture & Network Security</div>
+                    <div className="text-gray-600">Specialized in Software Systems Design & Cloud Architecture</div>
                   </div>
                 </div>
               </div>

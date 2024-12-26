@@ -9,10 +9,10 @@ export default function Hero() {
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
       strings: [
-        'Engineering Excellence',
-        'Cloud Architecture',
-        'Technical Innovation',
-        'Team Leadership'
+        'Technical Excellence',
+        'Full Stack Development',
+        'Agile Leadership',
+        'Cloud Solutions'
       ],
       typeSpeed: 50,
       backSpeed: 30,
@@ -25,18 +25,18 @@ export default function Hero() {
 
   const expertise = [
     { icon: <Code2 className="h-5 w-5" />, text: "Lead Engineer", color: "from-blue-500 to-cyan-500" },
-    { icon: <Database className="h-5 w-5" />, text: "Full Stack", color: "from-purple-500 to-pink-500" },
+    { icon: <Database className="h-5 w-5" />, text: "Full Stack Dev", color: "from-purple-500 to-pink-500" },
     { icon: <Target className="h-5 w-5" />, text: "Scrum Master", color: "from-amber-500 to-red-500" },
-    { icon: <Brain className="h-5 w-5" />, text: "AI Expert", color: "from-green-500 to-emerald-500" },
-    { icon: <Shield className="h-5 w-5" />, text: "AWS Certified", color: "from-indigo-500 to-purple-500" },
-    { icon: <Layers className="h-5 w-5" />, text: "Architect", color: "from-rose-500 to-orange-500" }
+    { icon: <Shield className="h-5 w-5" />, text: "AWS & DevOps", color: "from-indigo-500 to-purple-500" },
+    { icon: <Brain className="h-5 w-5" />, text: "AI Enthusiast", color: "from-green-500 to-emerald-500" },
+    { icon: <Layers className="h-5 w-5" />, text: "Agile Leader", color: "from-rose-500 to-orange-500" }
   ];
 
   const metrics = [
-    { icon: <Globe className="h-6 w-6 text-white" />, value: "15+", label: "Years", sublabel: "Experience" },
-    { icon: <Rocket className="h-6 w-6 text-white" />, value: "50+", label: "Projects", sublabel: "Delivered" },
-    { icon: <Zap className="h-6 w-6 text-white" />, value: "98%", label: "Success", sublabel: "Rate" },
-    { icon: <Star className="h-6 w-6 text-white" />, value: "40+", label: "Team Size", sublabel: "Led" }
+    { icon: <Globe className="h-6 w-6 text-white" />, value: "5+", label: "Tech Stack", sublabel: "Mastered" },
+    { icon: <Rocket className="h-6 w-6 text-white" />, value: "25+", label: "Projects", sublabel: "Delivered" },
+    { icon: <Zap className="h-6 w-6 text-white" />, value: "95%", label: "Success", sublabel: "Rate" },
+    { icon: <Star className="h-6 w-6 text-white" />, value: "15+", label: "Team Size", sublabel: "Led" }
   ];
 
   return (
@@ -76,20 +76,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           {/* Status Badge */}
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white shadow-xl shadow-indigo-100/50 border border-indigo-100 mb-8"
-          >
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75" />
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-indigo-500" />
-            </span>
-            <span className="text-sm font-medium bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-              Available for Technical Leadership Roles
-            </span>
-          </motion.div>
+          
 
           {/* Main Content */}
           <div className="text-center mb-12">
@@ -111,9 +98,9 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed"
             >
-              A visionary engineering leader with a proven track record in building scalable solutions 
-              and high-performing teams. Driving innovation through cloud architecture, microservices, 
-              and cutting-edge technologies.
+              Versatile Lead Engineer with expertise in Node, React, Vue, Laravel, TypeScript, and JavaScript. 
+              Certified Scrum Master driving agile excellence and innovation. 
+              Passionate about cloud architecture and AI, committed to delivering scalable solutions while fostering team growth.
             </motion.p>
           </div>
 
