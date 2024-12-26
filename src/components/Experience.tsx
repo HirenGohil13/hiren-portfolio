@@ -1,5 +1,4 @@
-import React from 'react';
-import { Briefcase, Building2, Calendar, ChevronRight, Award, Users, Cpu, Code, Target } from 'lucide-react';
+import { Briefcase, Building2, Calendar, ChevronRight, Award, Cpu, Target } from 'lucide-react';
 
 const experiences = [
   {
@@ -41,7 +40,7 @@ const experiences = [
       metric: "200%",
       text: "User Growth"
     },
-    "achievements": [
+    achievements: [
   "Reduced API response times by 60% through targeted optimizations, significantly improving system speed and enhancing user satisfaction.",
   "Implemented a zero-trust security model, strengthening the platform's defense mechanisms and ensuring secure data handling at all levels.",
   "Collaborated with cross-functional teams to ensure smooth integration of new features, ensuring alignment between technical solutions and business goals.",
@@ -51,23 +50,23 @@ const experiences = [
     tags: ["System Architecture", "Performance", "Security"]
   },
   {
-    "company": "IIH Global",
-    "role": "Software Engineer",
-    "period": "April 2014 - Jan 2018",
-    "description": "Worked on developing key features and improving system performance, while helping establish good development practices.",
-    "impact": {
-      "icon": "<Code className='h-5 w-5' />",
-      "metric": "95%",
-      "text": "Client Satisfaction"
+    company: "IIH Global",
+    role: "Software Engineer",
+    period: "April 2014 - Jan 2018",
+    description: "Worked on developing key features and improving system performance, while helping establish good development practices.",
+    impact: {
+      icon: <Cpu className='h-5 w-5' />,
+      metric: "95%",
+      text: "Client Satisfaction"
     },
-    "achievements": [
+    achievements: [
       "Delivered 20+ important features with 99.9% system uptime.",
       "Reduced the bug rate by 45% by adding automated tests to improve code quality.",
       "Made the application load 65% faster, improving user experience.",
       "Built internal tools that saved the team over 20 hours a week.",
       "Led the integration of a payment gateway, processing over $10M in transactions each month."
     ],
-    "tags": [
+    tags: [
       "Feature Development",
       "Quality Assurance",
       "Performance Improvement",
