@@ -86,7 +86,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-6xl md:text-7xl font-bold text-gray-900 tracking-tight mb-6"
+              className="text-6xl md:text-4xl font-bold text-gray-900 tracking-tight mb-6"
             >
               Transforming Vision
               <span className="block mt-2 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
