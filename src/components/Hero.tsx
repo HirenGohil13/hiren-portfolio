@@ -1,29 +1,8 @@
-import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Code2, Database, Brain, Shield, Target, Rocket, Star, Globe, Zap, Layers } from 'lucide-react';
-import Typed from 'typed.js';
 
-export default function Hero() {
-  const typedRef = useRef(null);
-  
-  useEffect(() => {
-    const typed = new Typed(typedRef.current, {
-      strings: [
-        'Leading Engineering Excellence',
-        'Driving Technical Strategy & Innovation',
-        'Building Full Stack Expertise',
-        'Architecting Cloud Solutions',
-        'Mentoring & Empowering Teams',
-        'Delivering Agile Project Success'
-    ],    
-      typeSpeed: 50,
-      backSpeed: 20,
-      backDelay: 1000,
-      loop: true
-    });
 
-    return () => typed.destroy();
-  }, []);
+export default function Hero() {  
 
   const expertise = [
     { icon: <Code2 className="h-5 w-5" />, text: "Lead Engineer", color: "from-blue-500 to-cyan-500" },
@@ -49,31 +28,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-br from-white to-gray-50" />
       </div>
 
-      {/* Floating Orbs with proper z-index */}
-      {[...Array(3)].map((_, i) => (
-        <motion.div
-          key={i}
-          className="absolute hidden lg:block w-72 h-72 bg-gradient-to-br from-indigo-500/10 to-purple-500/10 rounded-full blur-3xl z-0"
-          animate={{
-            x: [0, 30, 0],
-            y: [0, 40, 0],
-            scale: [1, 1.1, 1],
-            rotate: [0, 180, 0],
-          }}
-          transition={{
-            duration: 20,
-            repeat: Infinity,
-            delay: i * 2,
-            ease: "linear",
-          }}
-          style={{
-            top: `${20 + i * 30}%`,
-            left: `${10 + i * 40}%`,
-            opacity: 0.4 - i * 0.1,
-          }}
-        />
-      ))}
-
+     
       {/* Main Content with proper z-index */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
@@ -86,11 +41,11 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-6xl md:text-4xl font-bold text-gray-900 tracking-tight mb-6"
+              className="text-5xl md:text-5xl font-bold text-gray-900 tracking-tight mb-6"
             >
-              Transforming Vision
+              Crafting Innovative Solutions with Strategic Precision
               <span className="block mt-2 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                Into <span ref={typedRef}></span>
+                
               </span>
             </motion.h1>
 
