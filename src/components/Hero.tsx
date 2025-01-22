@@ -11,7 +11,8 @@ export default function Hero() {
     { icon: <Shield className="h-5 w-5" />, text: "Competent in AWS & DevOps", color: "from-indigo-500 to-purple-500" },
     { icon: <Layers className="h-5 w-5" />, text: "Agile Leader", color: "from-rose-500 to-orange-500" },
     { icon: <Shield className="h-5 w-5" />, text: "Technical Delivery Manager", color: "from-teal-500 to-green-500" }, 
-    { icon: <Brain className="h-5 w-5" />, text: "AI Enthusiast", color: "from-green-500 to-emerald-500" },// Added Technical Manager
+    { icon: <Code2 className="h-5 w-5" />, text: "Software Architect", color: "from-blue-500 to-cyan-500" },
+    { icon: <Brain className="h-5 w-5" />, text: "AI Enthusiast", color: "from-green-500 to-emerald-500" }
   ];
 
   const metrics = [
