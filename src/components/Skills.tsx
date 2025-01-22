@@ -1,6 +1,5 @@
 import { 
-  Users, Layout, Server, Database,
-  GitBranch, Trello, Workflow, Layers, 
+  Users, Server, Database, 
   Cloud, Code2, Brain, Lock
 } from 'lucide-react';
 
@@ -33,7 +32,12 @@ const skillCategories = [
   {
     title: "Cloud & DevOps",
     icon: <Cloud className="h-6 w-6" />,
-    skills: ["AWS", "Docker", "GitHub", "GitLab","Github Action (CI/CD)"]
+    skills: ["AWS", "Docker", "GitHub", "GitLab","Github Action (CI/CD)", "NGINX"]
+  },
+  {
+    title: "AWS Services",
+    icon: <Cloud className="h-5 w-5" />,
+    skills: ["EC2", "Lambda", "S3", "DynamoDB", "CloudFront", "Route 53", "API Gateway", "IAM", "WAF", "Config", "Cloudwatch", "SQS", "SNS", "ECR"]
   },
   {
     title: "Project Management",

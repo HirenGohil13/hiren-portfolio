@@ -6,11 +6,12 @@ export default function Hero() {
 
   const expertise = [
     { icon: <Code2 className="h-5 w-5" />, text: "Lead Engineer", color: "from-blue-500 to-cyan-500" },
-    { icon: <Database className="h-5 w-5" />, text: "Full Stack Dev", color: "from-purple-500 to-pink-500" },
-    { icon: <Target className="h-5 w-5" />, text: "Scrum Master", color: "from-amber-500 to-red-500" },
-    { icon: <Shield className="h-5 w-5" />, text: "AWS & DevOps", color: "from-indigo-500 to-purple-500" },
-    { icon: <Brain className="h-5 w-5" />, text: "AI Enthusiast", color: "from-green-500 to-emerald-500" },
-    { icon: <Layers className="h-5 w-5" />, text: "Agile Leader", color: "from-rose-500 to-orange-500" }
+    { icon: <Database className="h-5 w-5" />, text: "Full Stack Developer", color: "from-purple-500 to-pink-500" },
+    { icon: <Target className="h-5 w-5" />, text: "Certified Scrum Master", color: "from-amber-500 to-red-500" },
+    { icon: <Shield className="h-5 w-5" />, text: "Competent in AWS & DevOps", color: "from-indigo-500 to-purple-500" },
+    { icon: <Layers className="h-5 w-5" />, text: "Agile Leader", color: "from-rose-500 to-orange-500" },
+    { icon: <Shield className="h-5 w-5" />, text: "Technical Delivery Manager", color: "from-teal-500 to-green-500" }, 
+    { icon: <Brain className="h-5 w-5" />, text: "AI Enthusiast", color: "from-green-500 to-emerald-500" },// Added Technical Manager
   ];
 
   const metrics = [
