@@ -18,7 +18,7 @@ export const projects: Project[] = [
     tech: ["Python", "TensorFlow", "React", "PostgreSQL", "Redis"],
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80",
     metrics: [
-      { value: "10TB+", label: "Daily Data" },
+      { value: "1TB+", label: "Daily Data" },
       { value: "60%", label: "Cost Reduction" }
     ],
     status: "completed"
