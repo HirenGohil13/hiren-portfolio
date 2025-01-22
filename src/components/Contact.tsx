@@ -16,7 +16,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           <a
             href="mailto:hiren@sixberries.com"
             className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
@@ -52,6 +52,25 @@ export default function Contact() {
             </p>
             <p className="text-blue-600 font-medium group-hover:text-blue-700">
               View Profile
+            </p>
+          </a>
+
+          <a
+            href="https://wa.me/919574571784"
+            className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+          >
+            <div className="flex items-center justify-between mb-4">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" className="w-8 h-8 text-green-600" />
+              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-green-600 group-hover:translate-x-1 transition-all duration-300" />
+            </div>
+            <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              Contact on WhatsApp
+            </h3>
+            <p className="text-gray-600 mb-4">
+              Reach out for quick questions or discussions
+            </p>
+            <p className="text-green-600 font-medium group-hover:text-green-700">
+              +91 95745 71784
             </p>
           </a>
         </div>
